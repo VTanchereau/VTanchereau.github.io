@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b330326e-aa8f-4700-85bc-5593e6f3bcc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/ancre.html" afterPath="$PROJECT_DIR$/pages/ancre.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/body.html" afterPath="$PROJECT_DIR$/pages/body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/element_liste.html" afterPath="$PROJECT_DIR$/pages/element_liste.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/head.html" afterPath="$PROJECT_DIR$/pages/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/html.html" afterPath="$PROJECT_DIR$/pages/html.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/image.html" afterPath="$PROJECT_DIR$/pages/image.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/liste_defintion.html" afterPath="$PROJECT_DIR$/pages/liste_defintion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/liste_defintion_description.html" afterPath="$PROJECT_DIR$/pages/liste_defintion_description.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/liste_defintion_terme.html" afterPath="$PROJECT_DIR$/pages/liste_defintion_terme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/liste_non_ordonee.html" afterPath="$PROJECT_DIR$/pages/liste_non_ordonee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/liste_ordonee.html" afterPath="$PROJECT_DIR$/pages/liste_ordonee.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/meta.html" afterPath="$PROJECT_DIR$/pages/meta.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/paragraphe.html" afterPath="$PROJECT_DIR$/pages/paragraphe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/saut_ligne.html" afterPath="$PROJECT_DIR$/pages/saut_ligne.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/title.html" afterPath="$PROJECT_DIR$/pages/title.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/titres.html" afterPath="$PROJECT_DIR$/pages/titres.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,58 +35,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="56" column="50" lean-forward="false" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
-              <folding>
-                <element signature="e#311#315#0" expanded="true" />
-                <element signature="e#319#323#0" expanded="true" />
-                <element signature="e#1336#1340#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="meta.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/meta.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="e#72#76#0" expanded="true" />
-                <element signature="e#327#331#0" expanded="true" />
-                <element signature="e#336#340#0" expanded="true" />
-                <element signature="e#344#348#0" expanded="true" />
-                <element signature="e#353#357#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="title.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/title.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ancre.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/ancre.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,8 +51,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/pages/meta.html" />
+        <option value="$PROJECT_DIR$/pages/ancre.html" />
+        <option value="$PROJECT_DIR$/pages/titres.html" />
         <option value="$PROJECT_DIR$/pages/title.html" />
+        <option value="$PROJECT_DIR$/pages/saut_ligne.html" />
+        <option value="$PROJECT_DIR$/pages/paragraphe.html" />
+        <option value="$PROJECT_DIR$/pages/meta.html" />
+        <option value="$PROJECT_DIR$/pages/liste_ordonee.html" />
+        <option value="$PROJECT_DIR$/pages/liste_non_ordonee.html" />
+        <option value="$PROJECT_DIR$/pages/liste_defintion_terme.html" />
+        <option value="$PROJECT_DIR$/pages/liste_defintion_description.html" />
+        <option value="$PROJECT_DIR$/pages/liste_defintion.html" />
+        <option value="$PROJECT_DIR$/pages/image.html" />
+        <option value="$PROJECT_DIR$/pages/html.html" />
+        <option value="$PROJECT_DIR$/pages/head.html" />
+        <option value="$PROJECT_DIR$/pages/element_liste.html" />
+        <option value="$PROJECT_DIR$/pages/body.html" />
       </list>
     </option>
   </component>
@@ -227,18 +205,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487060564525</updated>
-      <workItem from="1487060566185" duration="1043000" />
+      <workItem from="1487060566185" duration="1849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1043000" />
+    <option name="totallyTimeSpent" value="1849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -269,42 +247,146 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="56" column="50" lean-forward="false" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+        <state relative-caret-position="154">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="53" />
           <folding>
-            <element signature="e#311#315#0" expanded="true" />
-            <element signature="e#319#323#0" expanded="true" />
-            <element signature="e#1336#1340#0" expanded="true" />
+            <element signature="e#260#264#0" expanded="true" />
+            <element signature="e#268#272#0" expanded="true" />
+            <element signature="e#1285#1289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ancre.html">
+    <entry file="file://$PROJECT_DIR$/pages/titres.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/saut_ligne.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/paragraphe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/meta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="154">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="e#72#76#0" expanded="true" />
-            <element signature="e#327#331#0" expanded="true" />
-            <element signature="e#336#340#0" expanded="true" />
-            <element signature="e#344#348#0" expanded="true" />
-            <element signature="e#353#357#0" expanded="true" />
+            <element signature="e#380#384#0" expanded="true" />
+            <element signature="e#389#393#0" expanded="true" />
+            <element signature="e#397#401#0" expanded="true" />
+            <element signature="e#406#410#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/title.html">
+    <entry file="file://$PROJECT_DIR$/pages/liste_ordonee.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/liste_non_ordonee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/liste_defintion_terme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/liste_defintion_description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/liste_defintion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/element_liste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ancre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
           <folding />
         </state>
       </provider>
