@@ -3,485 +3,81 @@
   <head>
     <meta charset="utf-8">
     <title>Balises HTML</title>
+    <style>
+
+      header{
+        top: 1%;
+        position: fixed;
+      }
+
+      .top_button{
+        background: white;
+        position: fixed;
+        bottom: 0;
+        right:1%
+      }
+
+      .logo{
+        background: white;
+        position: fixed;
+        right:1%
+      }
+    </style>
   </head>
-  <style>
-    html,
-    body {
-      margin:0;
-      padding:0;
-      height:100%;
-    }
-    #container {
-      min-height:100%;
-      position:relative;
-    }
-    #header {
-      background: white;
-      position: fixed;
-      top: 1%;
-      right: 1%
-    }
-    #body {
-      padding:10px;
-      padding-bottom:60px;   /* Height of the footer */
-    }
-    #footer {
-      background: white;
-      text-align: right;
-      position: fixed;
-      bottom: 0;
-      right:1%
-    }
-  </style>
+
   <body>
-    <div id="container">
-      <div id="header">
-        <img src="resources/logo.gif" alt="LICORNE MAGLE">
-      </div>
-      <div id="body">
-        <h1>Liste des balises HTML</h1>
-        <ol>
-          <li>
-            <a href="#html"><code>&lt;html&gt;</code></a>
-          </li>
-          <li>
-            <a href="#head"><code>&lt;head&gt;</code></a>
-          </li>
-          <li>
-            <a href="#bodyTag"><code>&lt;body&gt;</code></a>
-          </li>
-          <li>
-            <a href="#titres"><code>&lt;h1&gt;-&lt;h6&gt;</code></a>
-          </li>
-          <li>
-            <a href="#p"><code>&lt;p&gt;</code></a>
-          </li>
-          <li>
-            <a href="#a"><code>&lt;a&gt;</code></a>
-          </li>
-          <li>
-            <a href="#br"><code>&lt;br/&gt;</code></a>
-          </li>
-          <li>
-            <a href="#ul"><code>&lt;ul&gt;</code></a>
-          </li>
-          <li>
-            <a href="#ol"><code>&lt;ol&gt;</code></a>
-          </li>
-          <li>
-            <a href="#li"><code>&lt;li&gt;</code></a>
-          </li>
-          <li>
-            <a href="#dl"><code>&lt;dl&gt;</code></a>
-          </li>
-          <li>
-            <a href="#dt"><code>&lt;dt&gt;</code></a>
-          </li>
-          <li>
-            <a href="#dd"><code>&lt;dd&gt;</code></a>
-          </li>
-          <li>
-            <a href="#img"><code>&lt;img&gt;</code></a>
-          </li>
-          <li>
-            <a href="#meta"><code>&lt;meta&gt;</code></a>
-          </li>
-          <li>
-            <a href="#title"><code>&lt;title&gt;</code></a>
-          </li>
-        </ol>
+    <header>
+      <img src="resources/logo.gif" alt="LICORNE MAGLE" class="logo">
+    </header>
 
-        <h1 id="html">1. <code>&lt;html&gt;</code></h1>
-        <h2>Description</h2>
+    <main>
+      <form action="" method="get">
+        <h3>Renseignez vos informations</h3>
         <p>
-          L'élément HTML &lt;html&gt; représente la racine d'un document HTML ou XHTML.
-          Tout autre élément du document doit être un descendant de cet élément.
+          <label for="nom">Nom : </label>
+          <input type="text" name="nom" id="nom">
         </p>
-        <h2>Example</h2>
         <p>
-          <code>
-        <pre>
-<strong>&lt;html&gt;</strong>
-  &lt;head&gt;
-    &lt;title&gt;Titre du document&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p&gt;Et là un paragraphe…&lt;/p&gt;
-  &lt;/body&gt;
-<strong>&lt;/html&gt;</strong>
-        </pre>
-          </code>
+          <label for="prenom">Prenom : </label>
+          <input type="text" name="prenom" id="prenom">
         </p>
+        <p>
+          <label for="age">Age : </label>
+          <select name="age" id="age">
+            <option value="1">18</option>
+            <option value="2">19</option>
+            <option value="3">20</option>
+            <option value="4">21</option>
+            <option value="5">22</option>
+            <option value="6">23</option>
+            <option value="7">24</option>
+            <option value="8">25</option>
+            <option value="9">26</option>
+            <option value="10">27</option>
+            <option value="11">28</option>
+            <option value="12">29</option>
+            <option value="13">30</option>
+            <option value="14">31</option>
+            <option value="15">32</option>
+            <option value="16">33</option>
+            <option value="17">34</option>
+            <option value="18">35</option>
+            <option value="19">36</option>
+            <option value="20">37</option>
+          </select>
+        </p>
+        <p>
+          <input type="submit" value="Valider">
+        </p>
+      </form>
 
-        <h1 id="head">2. <code>&lt;head&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;head&gt; fournit des informations générales (métadonnées) sur le document,
-          incluant son titre et des liens ou des définitions vers des scripts et feuilles de style.
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-&lt;html&gt;
-  <strong>&lt;head&gt;</strong>
-    &lt;title&gt;Titre du document&lt;/title&gt;
-  <strong>&lt;/head&gt;</strong>
-  &lt;body&gt;
-    &lt;p&gt;Et là un paragraphe…&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-        </pre>
-          </code>
-        </p>
+      <p>
+        <input type="text" name="name2" id="name2" content="">
+      </p>
+    </main>
 
-        <h1 id="bodyTag">3. <code>&lt;body&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément &lt;body&gt; représente le contenu principal du document HTML. Il ne peux y avoir qu'un élément &lt;body&gt; par document.
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Titre du document&lt;/title&gt;
-  &lt;/head&gt;
-  <strong>&lt;body&gt;</strong>
-    &lt;p&gt;Et là un paragraphe…&lt;/p&gt;
-  <strong>&lt;/body&gt;</strong>
-&lt;/html&gt;
-        </pre>
-          </code>
-        </p>
-
-        <h1 id="titres">4. <code>&lt;h1&gt;-&lt;h6&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          Les éléments &lt;h1&gt; à &lt;h6&gt; représentent six niveaux de titres dans un document, &lt;h1&gt; est le plus
-          important et &lt;h6&gt; est le moins important. Un élément de titre décrit brièvement le sujet de la section qu'il introduit.
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-<strong>&lt;h1&gt;</strong>Titre de niveau 1<strong>&lt;/h1&gt;</strong>
-<strong>&lt;h2&gt;</strong>Titre de niveau 2<strong>&lt;/h2&gt;</strong>
-<strong>&lt;h3&gt;</strong>Titre de niveau 3<strong>&lt;/h3&gt;</strong>
-<strong>&lt;h4&gt;</strong>Titre de niveau 4<strong>&lt;/h4&gt;</strong>
-<strong>&lt;h5&gt;</strong>Titre de niveau 5<strong>&lt;/h5&gt;</strong>
-<strong>&lt;h6&gt;</strong>Titre de niveau 6<strong>&lt;/h6&gt;</strong>
-        </pre>
-          </code>
-        </p>
-
-        <h1 id="p">5. <code>&lt;p&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;p&gt; représente un paragraphe de texte. Les paragraphes sont généralement représentés comme
-          des blocs et séparés par un espace vertical, leur première ligne est également parfois indentée.
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-<strong>&lt;p&gt;</strong>Ceci est un paragraphe.<strong>&lt;/p&gt;</strong>
-        </pre>
-          </code>
-        </p>
-
-        <h1 id="a">6. <code>&lt;a&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément &lt;a&gt; (pour ancre ou anchor en anglais) définit un hyperlien vers un autre endroit de la même page ou vers une autre
-          page sur le Web.
-        </p>
-        <h2>Attributs</h2>
-        <dl>
-          <ul>
-            <li>
-              <dt><stong>href</stong></dt>
-              <dd>
-                L'attribut href indique la cible du lien, soit une URL, soit un fragment d'URL.
-                Un fragment d'URL est un nom précédé par un dièse (#), qui indique une cible interne au document (un ID).
-                Les URL ne se limitent pas au documents web sur HTTP.
-                Les URL peuvent utiliser n'importe quel protocole supporté par le navigateur.
-                Par exemple, file, ftp et mailto fonctionnent avec la plupart des agents-utilisateur.
-              </dd>
-            </li>
-            <li>
-              <dt><stong>target</stong></dt>
-              <dd>
-                Cet attribut indique où afficher la ressource liée.
-                Il s'agit du nom, ou du mot-clé, d'un contexte de navigation (par exemple, un onglet, une fenêtre, ou une &lt;iframe&gt;).
-                Les mots-clés suivants ont un sens particulier :
-                <ul>
-                  <li>
-                    _self : charge la réponse dans le contexte de navigation courant.
-                    Il s'agit de la valeur par défaut quand l'attribut n'est pas renseigné.
-                  </li>
-                  <li>
-                    _blank : charge la réponse dans un nouveau contexte de navigation.
-                  </li>
-                  <li>
-                    _parent : charge la réponse dans le &lt;frameset&gt; HTML4 parent de la frame courante ou dans le
-                    contexte de navigation HTML5 parent relativement au contexte courant).
-                    S'il n'y a pas de parent, l'option se comporte de la même façon que _self.
-                  </li>
-                  <li>
-                    _top : En HTML4 : charge la réponse dans la fenêtre originale, annulant toutes les autres frames.
-                    En HTML5 : charge la réponse dans le contexte de navigation de plus haut niveau
-                    (c'est à dire, le contexte de navigation parent par rapport à l'actuel, et qui n'a lui-même aucun parent).
-                    S'il n'y a pas de parent, l'option se comporte de la même façon que _self.
-                  </li>
-                </ul>
-              </dd>
-            </li>
-          </ul>
-        </dl>
-        <p>
-
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code><strong>&lt;a href="https://monsiteinternet.fr/index.html" target="_blank"&gt;</strong>index
-            <strong>&lt;/a&gt;</strong></code>
-        </p>
-
-        <h1 id="br">7. <code>&lt;br/&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;br/&gt; crée un saut de ligne (un retour chariot) dans le texte.
-          Il s'avère utile lorsque les sauts de ligne ont une importance (par exemple lorsqu'on écrit une adresse ou un poème).
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-Maître corbeau, sur un arbre perché,<strong>&lt;br/&gt;</strong>
-Tenait en son bec un fromage.<strong>&lt;br/&gt;</strong>
-Maître renard par l'odeur alléché,<strong>&lt;br/&gt;</strong>
-Lui tint à peu près ce langage...<strong>&lt;br/&gt;</strong>
-        </pre>
-          </code>
-        </p>
-
-        <h1 id="ul">8. <code>&lt;ul&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;ul/&gt; représente une liste d'éléments sans ordre particulier. Il est souvent représenté par une liste à puces.
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-<strong>&lt;ul&gt;</strong>
-  &lt;li&gt;50g de sucre&lt;/li&gt;
-  &lt;li&gt;2 tablettes de chocolat&lt;/li&gt;
-  &lt;li&gt;1 andouillette de Guéméné&lt;/li&gt;
-<strong>&lt;/ul&gt;</strong>
-        </pre>
-          </code>
-        </p>
-
-        <h1 id="ol">9. <code>&lt;ol&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;ol&gt; représente une liste ordonnée.
-          Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la forme de nombres,
-          de lettres, de chiffres romains ou de points
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-<strong>&lt;ol&gt;</strong>
-  &lt;li&gt;50g de sucre&lt;/li&gt;
-  &lt;li&gt;2 tablettes de chocolat&lt;/li&gt;
-  &lt;li&gt;1 andouillette de Guéméné&lt;/li&gt;
-<strong>&lt;/ol&gt;</strong>
-        </pre>
-          </code>
-        </p>
-
-        <h1 id="li">10. <code>&lt;li&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;li&gt; représente un élément d'une liste. Cet élément doit être contenu dans une liste ordonnée
-          (c'est-à-dire au sein d'un élément &lt;ol&gt;), dans une liste non ordonnée (c'est-à-dire au sein d'un élément &lt;ul&gt;).
-          Pour les listes ordonnées, un indicateur ordinal (un nombre ou une lettre) est utilisé.
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-&lt;ul&gt;
-  <strong>&lt;li&gt;</strong>50g de sucre<strong>&lt;/li&gt;</strong>
-  <strong>&lt;li&gt;</strong>2 tablettes de chocolat<strong>&lt;/li&gt;</strong>
-  <strong>&lt;li&gt;</strong>1 andouillette de Guéméné<strong>&lt;/li&gt;</strong>
-&lt;/ul&gt;
-        </pre>
-          </code>
-        </p>
-
-        <h1 id="dl">11. <code>&lt;dl&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;dl&gt; forme une liste de paires associant des termes et leurs descriptions ou définitions.
-          On utilisera par exemple cet élément pour implémenter un glossaire.
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-<strong>&lt;dl&gt;</strong>
-  &lt;dt&gt;Firefox&lt;/dt&gt;
-  &lt;dd&gt;Un navigateur Web libre, open-source, multi-plateforme
-  dévelopé par la Mozilla Corporation et des centaines de
-  volontaires.&lt;/dd&gt;
-<strong>&lt;/dl&gt;</strong>
-        </pre>
-          </code>
-        </p>
-
-        <h1 id="dt">12. <code>&lt;dt&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;dt&gt; identifie un terme dans une liste de définitions ou de descriptions.
-          Cet élément n'apparaît qu'en tant qu'élément enfant d'un élément &lt;dl&gt; et est généralement suivi d'un élément &lt;dd&gt;.
-          Cependant, on peut avoir plusieurs éléments &lt;dt&gt; à la suite qui indiquent que plusieurs termes seront définis par le même élément &lt;dd&gt;
-          qui suivra.
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-&lt;dl&gt;
-  <strong>&lt;dt&gt;</strong>Firefox<strong>&lt;/dt&gt;</strong>
-  &lt;dd&gt;Un navigateur Web libre, open-source, multi-plateforme
-  dévelopé par la Mozilla Corporation et des centaines de
-  volontaires.&lt;/dd&gt;
-&lt;/dl&gt;
-        </pre>
-          </code>
-        </p>
-        <h1 id="dd">13. <code>&lt;dd&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;dd&gt; (pour definition description) indique la définition d'un terme au sein d'une liste de définitions (élément (&lt;dl&gt;).
-          Cet élément ne peut apparaître qu'en tant qu'élément appartenant à une liste de définitions et doit être précédé d'un élément &lt;dt&gt;.
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code>
-        <pre>
-&lt;dl&gt;
-  &lt;dt&gt;Firefox&lt;/dt&gt;
-  <strong>&lt;dd&gt;</strong>Un navigateur Web libre, open-source, multi-plateforme
-  dévelopé par la Mozilla Corporation et des centaines de
-  volontaires.<strong>&lt;/dd&gt;</strong>
-&lt;/dl&gt;
-        </pre>
-          </code>
-        </p>
-
-        <h1 id="img">14. <code>&lt;img&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;img&gt; permet de représenter une image dans un document.
-        </p>
-        <h2>Attributs</h2>
-        <dl>
-          <ul>
-            <li>
-              <dt>alt</dt>
-              <dd>
-                Cet attribut définit le texte alternatif utilisé lorsqu'il est impossible d'afficher l'image
-                (par exemple si l'URL est incoreccte ou si l'image n'est pas encore téléchargée).
-              </dd>
-            </li>
-            <li>
-              <dt>src</dt>
-              <dd>
-                L'URL de l'image. Cet attribut est obligatoire pour l'élément &lt;img&gt;.
-                Pour les navigateurs qui prennent en charge srcset, src est considéré comme une image candidate dont la densité de pixel
-                vaut 1x si aucune autre image avec cette densité n'est définie via srcset ou si srcset contient des descripteurs 'w'.
-              </dd>
-            </li>
-          </ul>
-        </dl>
-        <h2>Example</h2>
-        <p>
-          <code>
-            <strong>&lt;img src="mdn-logo-sm.png" alt="MDN"&gt;</strong>
-          </code>
-        </p>
-
-        <h1 id="meta">15. <code>&lt;meta&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément HTML &lt;meta&gt; représente toute information de métadonnées qui ne peut pas être représentée par un des éléments
-          (&lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; ou &lt;title&gt;).
-        </p>
-        <h2>Attributs</h2>
-        <dl>
-          <ul>
-            <li>
-              <dt>charset</dt>
-              <dd>
-                Cet attribut déclare l'encodage utilisé par la page.
-                Il peut être outrepassé de manière locale en utilisant l'attribut lang d'un élément.
-                La valeur de cet attribut est une chaîne de caractères et doit être l'un des noms MIME préférés d'un encodage
-                comme spécifié par l'IANA.
-                Bien que le standard ne fixe pas d'encodage particulier, il fournit cependant quelques recommendations :
-                <ul>
-                  <li>
-                    Les auteurs sont invités à utiliser UTF-8
-                  </li>
-                  <li>
-                    Les auteurs ne devraient pas utiliser d'encodage incompatible avec l'ASCII
-                    (c'est à dire ceux dont les codes 8-bits de 0x20 à 0x7E ne correspondent pas, de manière respective,
-                    aux codes Unicode 0x0020 à 0x007E) car ceux-ci représentent un risque de sécurité,
-                    les navigateurs ne les supportant pas pouvant traduire du contenu bénin en des éléments HTML.
-                    Ceci est le cas pour les jeux de caractères suivants : JIS_C6226-1983, JIS_X0212-1990, HZ-GB-2312, JOHAB,
-                    la famille d'encodages ISO-2022 et la famille d'encodages EBCDIC.
-                  </li>
-                  <li>
-                    Les auteurs ne doivent pas utiliser CESU-8, UTF-7, BOCU-1 et SCSU.
-                    Ceux-ci rejoignent le cas précédents et n'ont pas été conçus pour être utilisés sur le web.
-                    Certaines attaques de types XSS (Cross-site scripting) ont pu être recensées avec ces encodages.
-                  </li>
-                  <li>
-                    Les auteurs ne devraient pas utiliser UTF-32 car certains algorithmes d'encodage HTML5 ne peuvent différiencer UTF-32 de UTF-16.
-                  </li>
-                </ul>
-              </dd>
-            </li>
-          </ul>
-        </dl>
-        <h2>Example</h2>
-        <p>
-          <code><strong>&lt;meta charset="utf-8"&gt;</strong></code>
-        </p>
-
-        <h1 id="title">16. <code>&lt;title&gt;</code></h1>
-        <h2>Description</h2>
-        <p>
-          L'élément &lt;title&gt; définit le titre du document (qui est affiché dans la barre de titre du navigateur ou dans l'onglet de la page).
-          Cet élément ne peut contenir que du texte, les balises qu'il contiendrait seraient ignorées.
-
-        </p>
-        <h2>Example</h2>
-        <p>
-          <code><strong>&lt;title&gt;</strong>Awesome page title<strong>&lt;/title&gt;</strong></code>
-        </p>
-      </div>
-      <div id="footer">
-        <p>
-          <a href="#top"><img src="resources/top.jpg" alt="fleche"></a>
-        </p>
-      </div>
-    </div>
+    <footer>
+      <a href="pages/sans_titre.html" class="top_button"><img src="resources/top.jpg" alt="fleche"></a>
+    </footer>
   </body>
 </html>

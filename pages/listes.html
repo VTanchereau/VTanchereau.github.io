@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Balises de listes</title>
+  <style>
+    section{
+      margin-left: 20px;
+    }
+
+    pre{
+      background: gainsboro;
+      padding: 5px;
+      width: fit-content;
+    }
+  </style>
+</head>
+
+
+
+<body>
+  <header>
+    <h1>Balises de listes</h1>
+  </header>
+
+  <main>
+    <nav>
+      <ol>
+        <li>
+          <a href="#ul"><code>&lt;ul&gt;</code></a>
+        </li>
+        <li>
+          <a href="#ol"><code>&lt;ol&gt;</code></a>
+        </li>
+        <li>
+          <a href="#li"><code>&lt;li&gt;</code></a>
+        </li>
+        <li>
+          <a href="#dl"><code>&lt;dl&gt;</code></a>
+        </li>
+        <li>
+          <a href="#dt"><code>&lt;dt&gt;</code></a>
+        </li>
+        <li>
+          <a href="#dd"><code>&lt;dd&gt;</code></a>
+        </li>
+      </ol>
+    </nav>
+
+    <article>
+      <h2 id="ul">1. <code>&lt;ul&gt;</code></h2>
+
+      <section>
+        <h3>Description</h3>
+        <p>
+          L'élément HTML <code>&lt;ul&gt;</code> représente une liste d'éléments sans ordre particulier.
+          Il est souvent représenté par une liste à puces.
+        </p>
+      </section>
+
+      <section>
+        <h3>Attributs</h3>
+        <p>
+
+        </p>
+      </section>
+
+      <section>
+        <h3>Exemple</h3>
+        <pre><code><strong>&lt;ul&gt;</strong>
+  &lt;li&gt;50g de sucre&lt;/li&gt;
+  &lt;li&gt;2 tablettes de chocolat&lt;/li&gt;
+  &lt;li&gt;1 andouillette de Guéméné&lt;/li&gt;
+<strong>&lt;/ul&gt;</strong></code></pre>
+      </section>
+    </article>
+
+    <article>
+      <h2 id="ol">2. <code>&lt;ol&gt;</code></h2>
+      <section>
+        <h3>Description</h3>
+        <p>
+          L'élément HTML <code>&lt;ol&gt;</code> représente une liste ordonnée.
+          Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la forme de nombres,
+          de lettres, de chiffres romains ou de points.
+        </p>
+      </section>
+      <section>
+        <h3>Attributs</h3>
+        <p></p>
+      </section>
+      <section>
+        <h3>Exemple</h3>
+        <pre><code><strong>&lt;ol&gt;</strong>
+  &lt;li&gt;50g de sucre&lt;/li&gt;
+  &lt;li&gt;2 tablettes de chocolat&lt;/li&gt;
+  &lt;li&gt;1 andouillette de Guéméné&lt;/li&gt;
+<strong>&lt;/ol&gt;</strong></code></pre>
+      </section>
+    </article>
+
+    <article>
+      <h2 id="li">3. <code>&lt;li&gt;</code></h2>
+      <section>
+        <h3>Description</h3>
+        <p>
+          L'élément HTML <code>&lt;li&gt;</code> représente un élément d'une liste. Cet élément doit être contenu dans une liste ordonnée
+          (c'est-à-dire au sein d'un élément <code>&lt;ol&gt;</code>), dans une liste non ordonnée (c'est-à-dire au sein d'un élément <code>&lt;ul&gt;</code>).
+          Pour les listes ordonnées, un indicateur ordinal (un nombre ou une lettre) est utilisé.
+        </p>
+      </section>
+      <section>
+        <h3>Attributs</h3>
+        <p></p>
+      </section>
+      <section>
+        <h3>Exemple</h3>
+        <pre><code>&lt;ul&gt;
+  <strong>&lt;li&gt;</strong>50g de sucre<strong>&lt;/li&gt;</strong>
+  <strong>&lt;li&gt;</strong>2 tablettes de chocolat<strong>&lt;/li&gt;</strong>
+  <strong>&lt;li&gt;</strong>1 andouillette de Guéméné<strong>&lt;/li&gt;</strong>
+&lt;/ul&gt;</code></pre>
+      </section>
+    </article>
+
+    <article>
+      <h2 id="dl">4. <code>&lt;dl&gt;</code></h2>
+      <section>
+        <h3>Description</h3>
+        <p>
+          L'élément HTML <code>&lt;dl&gt;</code> forme une liste de paires associant des termes et leurs descriptions ou définitions.
+          On utilisera par exemple cet élément pour implémenter un glossaire.
+        </p>
+      </section>
+      <section>
+        <h3>Attributs</h3>
+        <p></p>
+      </section>
+      <section>
+        <h3>Exemple</h3>
+        <pre><code><strong>&lt;dl&gt;</strong>
+  &lt;dt&gt;Firefox&lt;/dt&gt;
+  &lt;dd&gt;Un navigateur Web libre, open-source, multi-plateforme
+  dévelopé par la Mozilla Corporation et des centaines de
+  volontaires.&lt;/dd&gt;
+<strong>&lt;/dl&gt;</strong></code></pre>
+      </section>
+    </article>
+
+    <article>
+      <h2 id="dt">5. <code>&lt;dt&gt;</code></h2>
+      <section>
+        <h3>Description</h3>
+        <p>
+          L'élément HTML <code>&lt;dt&gt;</code> identifie un terme dans une liste de définitions ou de descriptions.
+          Cet élément n'apparaît qu'en tant qu'élément enfant d'un élément <code>&lt;dl&gt;</code> et est généralement suivi d'un élément <code>&lt;dd&gt;</code>.
+          Cependant, on peut avoir plusieurs éléments <code>&lt;dt&gt;</code> à la suite qui
+          indiquent que plusieurs termes seront définis par le même élément <code>&lt;dd&gt;</code>
+          qui suivra.
+        </p>
+      </section>
+      <section>
+        <h3>Attributs</h3>
+        <p></p>
+      </section>
+      <section>
+        <h3>Exemple</h3>
+        <pre><code>&lt;dl&gt;
+  <strong>&lt;dt&gt;</strong>Firefox<strong>&lt;/dt&gt;</strong>
+  &lt;dd&gt;Un navigateur Web libre, open-source, multi-plateforme
+  dévelopé par la Mozilla Corporation et des centaines de
+  volontaires.&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+      </section>
+    </article>
+
+    <article>
+      <h2 id="dd">6. <code>&lt;dd&gt;</code></h2>
+      <section>
+        <h3>Description</h3>
+        <p>
+          L'élément HTML <code>&lt;dd&gt;</code> (pour definition description) indique la définition d'un terme au sein d'une liste de définitions (élément (<code>&lt;dl&gt;</code>).
+          Cet élément ne peut apparaître qu'en tant qu'élément appartenant à une liste de définitions et doit être précédé d'un élément <code>&lt;dt&gt;</code>.
+        </p>
+      </section>
+      <section>
+        <h3>Attributs</h3>
+        <p></p>
+      </section>
+      <section>
+        <h3>Exemple</h3>
+        <pre><code>&lt;dl&gt;
+  &lt;dt&gt;Firefox&lt;/dt&gt;
+  <strong>&lt;dd&gt;
+  </strong>Un navigateur Web libre, open-source, multi-plateforme
+  dévelopé par la Mozilla Corporation et des centaines de
+  volontaires.
+  <strong>&lt;/dd&gt;</strong>
+&lt;/dl&gt;</code></pre>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Squelette d'une page html</title>
+    <style>
+      section{
+        margin-left: 20px;
+      }
+
+      pre{
+        background: gainsboro;
+        padding: 5px;
+        width: fit-content;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Squelette d'une page html</h1>
+    </header>
+
+    <main>
+      <nav>
+        <ol>
+          <li>
+            <a href="#html"><code>&lt;html&gt;</code></a>
+          </li>
+          <li>
+            <a href="#head"><code>&lt;head&gt;</code></a>
+          </li>
+          <li>
+            <a href="#bodyTag"><code>&lt;body&gt;</code></a>
+          </li>
+          <li>
+            <a href="#meta"><code>&lt;meta&gt;</code></a>
+          </li>
+          <li>
+            <a href="#title"><code>&lt;title&gt;</code></a>
+          </li>
+        </ol>
+      </nav>
+
+      <article>
+        <h2 id="html">1. <code>&lt;html&gt;</code></h2>
+
+        <section>
+          <h3>Description</h3>
+          <p>
+            L'élément HTML <code>&lt;html&gt;</code> représente la racine d'un document HTML ou XHTML.
+            Tout autre élément du document doit être un descendant de cet élément.
+          </p>
+        </section>
+
+        <section>
+          <h3>Attributs</h3>
+          <p>
+
+          </p>
+        </section>
+
+        <section>
+          <h3>Exemple</h3>
+          <pre><code><strong>&lt;html&gt;</strong>
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;Titre du document&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+  &lt;/body&gt;
+<strong>&lt;/html&gt;</strong></code></pre>
+        </section>
+      </article>
+
+      <article>
+        <h2 id="head">2. <code>&lt;head&gt;</code></h2>
+
+        <section>
+          <h3>Description</h3>
+          <p>
+            L'élément HTML <code>&lt;head&gt;</code> fournit des informations générales (métadonnées) sur le document,
+            incluant son titre et des liens ou des définitions vers des scripts et feuilles de style.
+          </p>
+        </section>
+
+        <section>
+          <h3>Attributs</h3>
+          <p></p>
+        </section>
+
+        <section>
+          <h3>Exemple</h3>
+          <pre><code>&lt;html&gt;
+  <strong>&lt;head&gt;</strong>
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;Titre du document&lt;/title&gt;
+  <strong>&lt;/head&gt;</strong>
+  &lt;body&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </section>
+      </article>
+
+      <article>
+        <h2 id="bodyTag">3. <code>&lt;body&gt;</code></h2>
+        <section>
+          <h3>Description</h3>
+          <p>
+            L'élément <code>&lt;body&gt;</code> représente le contenu principal du document HTML.
+            Il ne peux y avoir qu'un élément <code>&lt;body&gt;</code> par document.
+          </p>
+        </section>
+
+        <section>
+          <h3>Attributs</h3>
+          <p></p>
+        </section>
+
+        <section>
+          <h3>Exemple</h3>
+          <pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;Titre du document&lt;/title&gt;
+  &lt;/head&gt;
+  <strong>&lt;body&gt;</strong>
+    &lt;p&gt;Et là un paragraphe…&lt;/p&gt;
+  <strong>&lt;/body&gt;</strong>
+&lt;/html&gt;</code></pre>
+        </section>
+      </article>
+
+      <article>
+        <h2 id="meta">4. <code>&lt;meta&gt;</code></h2>
+        <section>
+          <h3>Description</h3>
+          <p>
+            L'élément HTML <code>&lt;meta&gt;</code> représente toute information de métadonnées qui ne peut pas être
+            représentée par un des éléments
+            (<code>&lt;base&gt;</code>, <code>&lt;link&gt;</code>, <code>&lt;script&gt;</code>,
+            <code>&lt;style&gt;</code> ou <code>&lt;title&gt;</code>).
+          </p>
+        </section>
+        <section>
+          <h3>Attributs</h3>
+          <dl>
+            <dt>charset</dt>
+            <dd>
+              Cet attribut déclare l'encodage utilisé par la page.
+              Il peut être outrepassé de manière locale en utilisant l'attribut lang d'un élément.
+              La valeur de cet attribut est une chaîne de caractères et doit être l'un des noms MIME préférés d'un encodage
+              comme spécifié par l'IANA.
+              Bien que le standard ne fixe pas d'encodage particulier, il fournit cependant quelques recommendations :
+              <ul>
+                <li>
+                  Les auteurs sont invités à utiliser UTF-8
+                </li>
+                <li>
+                  Les auteurs ne devraient pas utiliser d'encodage incompatible avec l'ASCII
+                  (c'est à dire ceux dont les codes 8-bits de 0x20 à 0x7E ne correspondent pas, de manière respective,
+                  aux codes Unicode 0x0020 à 0x007E) car ceux-ci représentent un risque de sécurité,
+                  les navigateurs ne les supportant pas pouvant traduire du contenu bénin en des éléments HTML.
+                  Ceci est le cas pour les jeux de caractères suivants : JIS_C6226-1983, JIS_X0212-1990, HZ-GB-2312, JOHAB,
+                  la famille d'encodages ISO-2022 et la famille d'encodages EBCDIC.
+                </li>
+                <li>
+                  Les auteurs ne doivent pas utiliser CESU-8, UTF-7, BOCU-1 et SCSU.
+                  Ceux-ci rejoignent le cas précédents et n'ont pas été conçus pour être utilisés sur le web.
+                  Certaines attaques de types XSS (Cross-site scripting) ont pu être recensées avec ces encodages.
+                </li>
+                <li>
+                  Les auteurs ne devraient pas utiliser UTF-32 car certains algorithmes d'encodage HTML5 ne peuvent différiencer UTF-32 de UTF-16.
+                </li>
+              </ul>
+            </dd>
+          </dl>
+        </section>
+        <section>
+          <h3>Exemple</h3>
+          <pre><code>&lt;html&gt;
+  &lt;head&gt;
+   <strong>&lt;meta charset="utf-8"&gt;</strong>
+    &lt;title&gt;Titre du document&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Et là un paragraphe…&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </section>
+      </article>
+
+      <article>
+        <h2 id="title">5. <code>&lt;title&gt;</code></h2>
+        <section>
+          <h3>Description</h3>
+          <p>
+            L'élément <code>&lt;title&gt;</code> définit le titre du document (qui est affiché dans la barre de titre du navigateur ou dans l'onglet de la page).
+            Cet élément ne peut contenir que du texte, les balises qu'il contiendrait seraient ignorées.
+          </p>
+        </section>
+        <section>
+          <h3>Attributs</h3>
+          <p></p>
+        </section>
+        <section>
+          <h3>Exemple</h3>
+          <pre><code>&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    <strong>&lt;title&gt;</strong>Titre du document<strong>&lt;/title&gt;</strong>
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Et là un paragraphe…&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
