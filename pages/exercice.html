@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Exercice</title>
+    <style>
+      .rouge {
+        background-color: darkred;
+        float: top;
+      }
+
+
+      .bleu {
+        background-color: cornflowerblue;
+      }
+
+      .rectangle {
+        height: 150px;
+        width: 600px;
+        vertical-align: top;
+      }
+
+      .vert {
+        background-color: seagreen;
+        height: 600px;
+      }
+
+      .aligne {
+        display: inline-block;
+      }
+
+      .front-rect{
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        z-index: 2;
+      }
+
+      .middle-rect{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        z-index: 1;
+      }
+
+      .back-rect{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+      }
+
+      .exo-posi{
+        position: relative;
+        bottom: 40px;
+        left: 40px;
+      }
+
+      .bordure{
+        border-style: groove;
+        border-color: black;
+        border-width: 4px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="rouge" class="rectangle rouge aligne"></div>
+    <div id="vert" class="rectangle vert aligne"></div>
+    <div id="bleu" class="rectangle bleu aligne"></div>
+  </body>
+</html>

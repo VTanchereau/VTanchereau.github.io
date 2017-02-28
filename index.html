@@ -2,82 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Balises HTML</title>
-    <style>
-
-      header{
-        top: 1%;
-        position: fixed;
-      }
-
-      .top_button{
-        background: white;
-        position: fixed;
-        bottom: 0;
-        right:1%
-      }
-
-      .logo{
-        background: white;
-        position: fixed;
-        right:1%
-      }
-    </style>
   </head>
 
-  <body>
-    <header>
-      <img src="resources/logo.gif" alt="LICORNE MAGLE" class="logo">
+  <body class="article-content-font" style="margin: 0px">
+    <header class="stay-top-window header-size header-visual header-container">
+      <div class="header-div-diplay aligner">
+        <img src="resources/logo.jpg" alt="LICORNE MAGLE" class="logo">
+      </div>
+      <nav class="menu-bar">
+        <ul class="menu-list">
+          <li class="menu-left-element"><a class="police menu-link active" href="index.html">Acceuil</a></li><li class="menu-element"><a class="police menu-link" href="pages/listes.html">Listes</a></li><li class="menu-element"><a class="police menu-link" href="pages/media.html">Media</a></li><li class="menu-element"><a class="police menu-link" href="pages/textes.html">Textes</a></li><li class="menu-element"><a class="police menu-link" href="pages/squelette.html">Squelette</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main>
-      <form action="" method="get">
-        <h3>Renseignez vos informations</h3>
-        <p>
-          <label for="nom">Nom : </label>
-          <input type="text" name="nom" id="nom">
-        </p>
-        <p>
-          <label for="prenom">Prenom : </label>
-          <input type="text" name="prenom" id="prenom">
-        </p>
-        <p>
-          <label for="age">Age : </label>
-          <select name="age" id="age">
-            <option value="1">18</option>
-            <option value="2">19</option>
-            <option value="3">20</option>
-            <option value="4">21</option>
-            <option value="5">22</option>
-            <option value="6">23</option>
-            <option value="7">24</option>
-            <option value="8">25</option>
-            <option value="9">26</option>
-            <option value="10">27</option>
-            <option value="11">28</option>
-            <option value="12">29</option>
-            <option value="13">30</option>
-            <option value="14">31</option>
-            <option value="15">32</option>
-            <option value="16">33</option>
-            <option value="17">34</option>
-            <option value="18">35</option>
-            <option value="19">36</option>
-            <option value="20">37</option>
-          </select>
-        </p>
-        <p>
-          <input type="submit" value="Valider">
-        </p>
-      </form>
+    <div class="container">
+      <nav class="nav-bar">
+      </nav>
 
-      <p>
-        <input type="text" name="name2" id="name2" content="">
-      </p>
-    </main>
+      <main class="content-size">
+      </main>
+    </div>
 
     <footer>
-      <a href="pages/sans_titre.html" class="top_button"><img src="resources/top.jpg" alt="fleche"></a>
     </footer>
   </body>
 </html>

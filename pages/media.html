@@ -1,126 +1,146 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Balises de medias</title>
-  <style>
-    section{
-      margin-left: 20px;
-    }
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <title>Balises de medias</title>
+  </head>
 
-    pre{
-      background: gainsboro;
-      padding: 5px;
-      width: fit-content;
-    }
-  </style>
-</head>
+  <body class="article-content-font" style="margin: 0px">
+    <header class="stay-top-window header-size header-visual header-container">
+      <div class="header-div-diplay aligner">
+        <img src="../resources/logo.jpg" alt="LICORNE MAGLE" class="logo">
+      </div>
+      <nav class="menu-bar">
+        <ul class="menu-list">
+          <li class="menu-left-element"><a class="police menu-link" href="../index.html">Acceuil</a></li><li class="menu-element"><a class="police menu-link" href="listes.html">Listes</a></li><li class="menu-element"><a class="police menu-link active" href="media.html">Media</a></li><li class="menu-element"><a class="police menu-link" href="textes.html">Textes</a></li><li class="menu-element"><a class="police menu-link" href="squelette.html">Squelette</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <h1>Balises de médias</h1>
-  </header>
+    <div class="container">
+      <nav class="nav-bar">
+        <ul class="nav-bar-list">
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#img"><code>&lt;img&gt;</code></a>
+          </li>
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#a"><code>&lt;a&gt;</code></a>
+          </li>
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#bodyTag"><code>&lt;body&gt;</code></a>
+          </li>
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#meta"><code>&lt;meta&gt;</code></a>
+          </li>
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#title"><code>&lt;title&gt;</code></a>
+          </li>
+        </ul>
+      </nav>
 
-  <main>
-    <nav>
-      <ol>
-        <li>
-          <a href="#img"><code>&lt;img&gt;</code></a>
-        </li>
-        <li>
-          <a href="#a"><code>&lt;a&gt;</code></a>
-        </li>
-      </ol>
-    </nav>
+      <main class="content-size">
+        <h1 class="page-title">BALISES DE MEDIAS</h1>
+        <div class="article-container" id="img">
+          <article class="article-layout">
+            <h2 class="article-title"><code>&lt;img&gt;</code></h2>
+            <section>
+              <p>
+                L'élément HTML <code>&lt;img&gt;</code> permet de représenter une image dans un document.
+              </p>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Attributs</h3>
+              <dl>
+                <dt class="attribut-dt-style">alt</dt>
+                <dd>
+                  Cet attribut définit le texte alternatif utilisé lorsqu'il est impossible d'afficher l'image
+                  (par exemple si l'URL est incoreccte ou si l'image n'est pas encore téléchargée).
+                </dd>
+                <dt class="attribut-dt-style">src</dt>
+                <dd>
+                  L'URL de l'image. Cet attribut est obligatoire pour l'élément &lt;img&gt;.
+                  Pour les navigateurs qui prennent en charge srcset, src est considéré comme une image candidate dont la
+                  densité de pixel
+                  vaut 1x si aucune autre image avec cette densité n'est définie via srcset ou si srcset contient des
+                  descripteurs 'w'.
+                </dd>
+              </dl>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Exemple</h3>
+              <div class="code-snippet">
+                <div class="snipper-line"><div class="snippet-line-number">1</div><div class="snippet-line-content"><strong>&lt;img src="mdn-logo-sm.png" alt="MDN"&gt;</strong></div></div>
+              </div>
+            </section>
+          </article>
+        </div>
 
-    <article>
-      <h2 id="img">1. <code>&lt;img&gt;</code></h2>
-      <section>
-        <h3>Description</h3>
-        <p>
-          L'élément HTML <code>&lt;img&gt;</code> permet de représenter une image dans un document.
-        </p>
-      </section>
-      <section>
-        <h3>Attributs</h3>
-        <dl>
-          <dt>alt</dt>
-          <dd>
-            Cet attribut définit le texte alternatif utilisé lorsqu'il est impossible d'afficher l'image
-            (par exemple si l'URL est incoreccte ou si l'image n'est pas encore téléchargée).
-          </dd>
-          <dt>src</dt>
-          <dd>
-            L'URL de l'image. Cet attribut est obligatoire pour l'élément &lt;img&gt;.
-            Pour les navigateurs qui prennent en charge srcset, src est considéré comme une image candidate dont la densité de pixel
-            vaut 1x si aucune autre image avec cette densité n'est définie via srcset ou si srcset contient des descripteurs 'w'.
-          </dd>
-        </dl>
-      </section>
-      <section>
-        <h3>Exemple</h3>
-        <pre><code><strong>&lt;img src="mdn-logo-sm.png" alt="MDN"&gt;</strong></code></pre>
-      </section>
-    </article>
+        <div class="article-container" id="a">
+          <article class="article-layout">
+            <h2 class="article-title"><code>&lt;a&gt;</code></h2>
+            <section>
+              <p>
+                L'élément <code>&lt;a&gt;</code> (pour ancre ou anchor en anglais) définit
+                un hyperlien vers un autre endroit de la même page ou vers une autre
+                page sur le Web.
+              </p>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Attributs</h3>
+              <dl>
+                <dt class="attribut-dt-style">href</dt>
+                <dd>
+                  L'attribut href indique la cible du lien, soit une URL, soit un fragment d'URL.
+                  Un fragment d'URL est un nom précédé par un dièse (#), qui indique une cible interne au document (un ID).
+                  Les URL ne se limitent pas au documents web sur HTTP.
+                  Les URL peuvent utiliser n'importe quel protocole supporté par le navigateur.
+                  Par exemple, file, ftp et mailto fonctionnent avec la plupart des agents-utilisateur.
+                </dd>
+                <dt class="attribut-dt-style">target</dt>
+                <dd>
+                  Cet attribut indique où afficher la ressource liée.
+                  Il s'agit du nom, ou du mot-clé, d'un contexte de navigation (par exemple, un onglet, une fenêtre, ou une
+                  <code>&lt;iframe&gt;</code>).
+                  Les mots-clés suivants ont un sens particulier :
+                  <ul>
+                    <li>
+                      _self : charge la réponse dans le contexte de navigation courant.
+                      Il s'agit de la valeur par défaut quand l'attribut n'est pas renseigné.
+                    </li>
+                    <li>
+                      _blank : charge la réponse dans un nouveau contexte de navigation.
+                    </li>
+                    <li>
+                      _parent : charge la réponse dans le <code>&lt;frameset&gt;</code> HTML4 parent de la frame courante ou
+                      dans le
+                      contexte de navigation HTML5 parent relativement au contexte courant).
+                      S'il n'y a pas de parent, l'option se comporte de la même façon que _self.
+                    </li>
+                    <li>
+                      _top : En HTML4 : charge la réponse dans la fenêtre originale, annulant toutes les autres frames.
+                      En HTML5 : charge la réponse dans le contexte de navigation de plus haut niveau
+                      (c'est à dire, le contexte de navigation parent par rapport à l'actuel, et qui n'a lui-même aucun
+                      parent).
+                      S'il n'y a pas de parent, l'option se comporte de la même façon que _self.
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Exemple</h3>
+              <div class="code-snippet">
+                <div class="snipper-line"><div class="snippet-line-number">1</div><div class="snippet-line-content"><strong>&lt;a href="https://monsiteinternet.fr/index.html" target="_blank"&gt;</strong>index<strong>&lt;/a&gt;</strong></div></div>
+              </div>
+            </section>
+          </article>
+        </div>
+      </main>
+    </div>
 
-    <article>
-      <h2 id="a">6. <code>&lt;a&gt;</code></h2>
-      <section>
-        <h3>Description</h3>
-        <p>
-          L'élément <code>&lt;a&gt;</code> (pour ancre ou anchor en anglais) définit
-          un hyperlien vers un autre endroit de la même page ou vers une autre
-          page sur le Web.
-        </p>
-      </section>
-      <section>
-        <h3>Attributs</h3>
-        <dl>
-          <dt>href</dt>
-          <dd>
-            L'attribut href indique la cible du lien, soit une URL, soit un fragment d'URL.
-            Un fragment d'URL est un nom précédé par un dièse (#), qui indique une cible interne au document (un ID).
-            Les URL ne se limitent pas au documents web sur HTTP.
-            Les URL peuvent utiliser n'importe quel protocole supporté par le navigateur.
-            Par exemple, file, ftp et mailto fonctionnent avec la plupart des agents-utilisateur.
-          </dd>
-          <dt>target</dt>
-          <dd>
-            Cet attribut indique où afficher la ressource liée.
-            Il s'agit du nom, ou du mot-clé, d'un contexte de navigation (par exemple, un onglet, une fenêtre, ou une <code>&lt;iframe&gt;</code>).
-            Les mots-clés suivants ont un sens particulier :
-            <ul>
-              <li>
-                _self : charge la réponse dans le contexte de navigation courant.
-                Il s'agit de la valeur par défaut quand l'attribut n'est pas renseigné.
-              </li>
-              <li>
-                _blank : charge la réponse dans un nouveau contexte de navigation.
-              </li>
-              <li>
-                _parent : charge la réponse dans le <code>&lt;frameset&gt;</code> HTML4 parent de la frame courante ou dans le
-                contexte de navigation HTML5 parent relativement au contexte courant).
-                S'il n'y a pas de parent, l'option se comporte de la même façon que _self.
-              </li>
-              <li>
-                _top : En HTML4 : charge la réponse dans la fenêtre originale, annulant toutes les autres frames.
-                En HTML5 : charge la réponse dans le contexte de navigation de plus haut niveau
-                (c'est à dire, le contexte de navigation parent par rapport à l'actuel, et qui n'a lui-même aucun parent).
-                S'il n'y a pas de parent, l'option se comporte de la même façon que _self.
-              </li>
-            </ul>
-          </dd>
-        </dl>
-      </section>
-      <section>
-        <h3>Exemple</h3>
-        <pre><code><strong>&lt;a href="https://monsiteinternet.fr/index.html" target="_blank"&gt;</strong>index<strong>&lt;/a&gt;</strong></code></pre>
-      </section>
-    </article>
-  </main>
+    <footer>
 
-  <footer>
-
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>

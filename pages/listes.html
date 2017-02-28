@@ -1,208 +1,219 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Balises de listes</title>
-  <style>
-    section{
-      margin-left: 20px;
-    }
-
-    pre{
-      background: gainsboro;
-      padding: 5px;
-      width: fit-content;
-    }
-  </style>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css"/>
+    <title>Balises de listes</title>
+  </head>
 
 
+  <body class="article-content-font" style="margin: 0px">
+    <header class="stay-top-window header-size header-visual header-container">
+      <div class="header-div-diplay aligner">
+        <img src="../resources/logo.jpg" alt="LICORNE MAGLE" class="logo">
+      </div>
+      <nav class="menu-bar">
+        <ul class="menu-list">
+          <li class="menu-left-element"><a class="police menu-link" href="../index.html">Acceuil</a></li><li class="menu-element"><a class="active police menu-link" href="listes.html">Listes</a></li><li class="menu-element"><a class="police menu-link" href="media.html">Media</a></li><li class="menu-element"><a class="police menu-link" href="textes.html">Textes</a></li><li class="menu-element"><a class="police menu-link" href="squelette.html">Squelette</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <h1>Balises de listes</h1>
-  </header>
+    <div class="container">
+      <nav class="nav-bar">
+        <ul class="nav-bar-list">
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#ul"><code>&lt;ul&gt;</code></a>
+          </li>
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#ol"><code>&lt;ol&gt;</code></a>
+          </li>
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#li"><code>&lt;li&gt;</code></a>
+          </li>
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#dl"><code>&lt;dl&gt;</code></a>
+          </li>
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#dt"><code>&lt;dt&gt;</code></a>
+          </li>
+          <li class="nav-bar-element">
+            <a class="nav-bar-link" href="#dd"><code>&lt;dd&gt;</code></a>
+          </li>
+        </ul>
+      </nav>
 
-  <main>
-    <nav>
-      <ol>
-        <li>
-          <a href="#ul"><code>&lt;ul&gt;</code></a>
-        </li>
-        <li>
-          <a href="#ol"><code>&lt;ol&gt;</code></a>
-        </li>
-        <li>
-          <a href="#li"><code>&lt;li&gt;</code></a>
-        </li>
-        <li>
-          <a href="#dl"><code>&lt;dl&gt;</code></a>
-        </li>
-        <li>
-          <a href="#dt"><code>&lt;dt&gt;</code></a>
-        </li>
-        <li>
-          <a href="#dd"><code>&lt;dd&gt;</code></a>
-        </li>
-      </ol>
-    </nav>
+      <main class="content-size">
+        <h1 class="page-title">BALISES DE LISTES</h1>
+        <div class="article-container" id="ul">
+          <article class="article-layout">
+            <h2 class="article-title"><code>&lt;ul&gt;</code></h2>
+            <section>
+              <p>
+                L'élément HTML <code>&lt;ul&gt;</code> représente une liste d'éléments sans ordre particulier.
+                Il est souvent représenté par une liste à puces.
+              </p>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Attributs</h3>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Exemple</h3>
+              <div class="code-snippet">
+                <div class="snipper-line"><div class="snippet-line-number">1</div><div class="snippet-line-content"><strong>&lt;ul&gt;</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">2</div><div class="snippet-line-content">  &lt;li&gt;50g de sucre&lt;/li&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">3</div><div class="snippet-line-content">  &lt;li&gt;2 tablettes de chocolat&lt;/li&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">4</div><div class="snippet-line-content">  &lt;li&gt;1 andouillette de Guéméné&lt;/li&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">5</div><div class="snippet-line-content"><strong>&lt;/ul&gt;</strong></div></div>
+              </div>
+            </section>
+          </article>
+        </div>
 
-    <article>
-      <h2 id="ul">1. <code>&lt;ul&gt;</code></h2>
+        <div class="article-container" id="ol">
+          <article class="article-layout">
+            <h2 class="article-title"><code>&lt;ol&gt;</code></h2>
+            <section>
+              <p>
+                L'élément HTML <code>&lt;ol&gt;</code> représente une liste ordonnée.
+                Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la
+                forme de nombres,
+                de lettres, de chiffres romains ou de points.
+              </p>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Attributs</h3>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Exemple</h3>
+              <div class="code-snippet">
+                <div class="snipper-line"><div class="snippet-line-number">1</div><div class="snippet-line-content"><strong>&lt;ol&gt;</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">2</div><div class="snippet-line-content">  &lt;li&gt;50g de sucre&lt;/li&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">3</div><div class="snippet-line-content">  &lt;li&gt;2 tablettes de chocolat&lt;/li&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">4</div><div class="snippet-line-content">  &lt;li&gt;1 andouillette de Guéméné&lt;/li&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">5</div><div class="snippet-line-content"><strong>&lt;/ol&gt;</strong></div></div>
+              </div>
+            </section>
+          </article>
+        </div>
 
-      <section>
-        <h3>Description</h3>
-        <p>
-          L'élément HTML <code>&lt;ul&gt;</code> représente une liste d'éléments sans ordre particulier.
-          Il est souvent représenté par une liste à puces.
-        </p>
-      </section>
+        <div class="article-container" id="li">
+          <article class="article-layout">
+            <h2 class="article-title"><code>&lt;li&gt;</code></h2>
+            <section>
+              <p>
+                L'élément HTML <code>&lt;li&gt;</code> représente un élément d'une liste. Cet élément doit être contenu dans
+                une liste ordonnée
+                (c'est-à-dire au sein d'un élément <code>&lt;ol&gt;</code>), dans une liste non ordonnée (c'est-à-dire au
+                sein d'un élément <code>&lt;ul&gt;</code>).
+                Pour les listes ordonnées, un indicateur ordinal (un nombre ou une lettre) est utilisé.
+              </p>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Attributs</h3>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Exemple</h3>
+              <div class="code-snippet">
+                <div class="snipper-line"><div class="snippet-line-number">1</div><div class="snippet-line-content">&lt;ul&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">2</div><div class="snippet-line-content">  <strong>&lt;li&gt;</strong>50g de sucre<strong>&lt;/li&gt;</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">3</div><div class="snippet-line-content">  <strong>&lt;li&gt;</strong>2 tablettes de chocolat<strong>&lt;/li&gt;</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">4</div><div class="snippet-line-content">  <strong>&lt;li&gt;</strong>1 andouillette de Guéméné<strong>&lt;/li&gt;</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">5</div><div class="snippet-line-content">&lt;/ul&gt;</div></div>
+              </div>
+            </section>
+          </article>
+        </div>
 
-      <section>
-        <h3>Attributs</h3>
-        <p>
+        <div class="article-container" id="dl">
+          <article class="article-layout">
+            <h2 class="article-title"><code>&lt;dl&gt;</code></h2>
+            <section>
+              <p>
+                L'élément HTML <code>&lt;dl&gt;</code> forme une liste de paires associant des termes et leurs descriptions
+                ou définitions.
+                On utilisera par exemple cet élément pour implémenter un glossaire.
+              </p>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Attributs</h3>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Exemple</h3>
+              <div class="code-snippet">
+                <div class="snipper-line"><div class="snippet-line-number">1</div><div class="snippet-line-content"><strong>&lt;dl&gt;</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">2</div><div class="snippet-line-content">  &lt;dt&gt;Firefox&lt;/dt&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">3</div><div class="snippet-line-content">  &lt;dd&gt;Un navigateur Web libre, open-source, multi-plateforme</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">4</div><div class="snippet-line-content">  dévelopé par la Mozilla Corporation et des centaines de</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">5</div><div class="snippet-line-content">  volontaires.&lt;/dd&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">6</div><div class="snippet-line-content"><strong>&lt;/dl&gt;</strong></div></div>
+              </div>
+            </section>
+          </article>
+        </div>
 
-        </p>
-      </section>
+        <div class="article-container" id="dt">
+          <article class="article-layout">
+            <h2 class="article-title"><code>&lt;dt&gt;</code></h2>
+            <section>
+              <p>
+                L'élément HTML <code>&lt;dt&gt;</code> identifie un terme dans une liste de définitions ou de descriptions.
+                Cet élément n'apparaît qu'en tant qu'élément enfant d'un élément <code>&lt;dl&gt;</code> et est généralement
+                suivi d'un élément <code>&lt;dd&gt;</code>.
+                Cependant, on peut avoir plusieurs éléments <code>&lt;dt&gt;</code> à la suite qui
+                indiquent que plusieurs termes seront définis par le même élément <code>&lt;dd&gt;</code>
+                qui suivra.
+              </p>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Attributs</h3>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Exemple</h3>
+              <div class="code-snippet">
+                <div class="snipper-line"><div class="snippet-line-number">1</div><div class="snippet-line-content">&lt;dl&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">2</div><div class="snippet-line-content">  <strong>&lt;dt&gt;</strong>Firefox<strong>&lt;/dt&gt;</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">3</div><div class="snippet-line-content">  &lt;dd&gt;Un navigateur Web libre, open-source, multi-plateforme</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">4</div><div class="snippet-line-content">  dévelopé par la Mozilla Corporation et des centaines de</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">5</div><div class="snippet-line-content">  volontaires.&lt;/dd&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">6</div><div class="snippet-line-content">&lt;/dl&gt;</div></div>
+              </div>
+            </section>
+          </article>
+        </div>
 
-      <section>
-        <h3>Exemple</h3>
-        <pre><code><strong>&lt;ul&gt;</strong>
-  &lt;li&gt;50g de sucre&lt;/li&gt;
-  &lt;li&gt;2 tablettes de chocolat&lt;/li&gt;
-  &lt;li&gt;1 andouillette de Guéméné&lt;/li&gt;
-<strong>&lt;/ul&gt;</strong></code></pre>
-      </section>
-    </article>
+        <div class="article-container" id="dd">
+          <article class="article-layout">
+            <h2 class="article-title"><code>&lt;dd&gt;</code></h2>
+            <section>
+              <p>
+                L'élément HTML <code>&lt;dd&gt;</code> (pour definition description) indique la définition d'un terme au
+                sein d'une liste de définitions (élément (<code>&lt;dl&gt;</code>).
+                Cet élément ne peut apparaître qu'en tant qu'élément appartenant à une liste de définitions et doit être
+                précédé d'un élément <code>&lt;dt&gt;</code>.
+              </p>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Attributs</h3>
+            </section>
+            <section>
+              <h3 class="article-subtitle">Exemple</h3>
+              <div class="code-snippet">
+                <div class="snipper-line"><div class="snippet-line-number">1</div><div class="snippet-line-content">&lt;dl&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">2</div><div class="snippet-line-content">  &lt;dt&gt;Firefox&lt;/dt&gt;</div></div>
+                <div class="snipper-line"><div class="snippet-line-number">3</div><div class="snippet-line-content">  <strong>&lt;dd&gt;</strong>Un navigateur Web libre, open-source, multi-plateforme</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">4</div><div class="snippet-line-content">  dévelopé par la Mozilla Corporation et des centaines de</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">5</div><div class="snippet-line-content">  volontaires.<strong>&lt;/dd&gt;</strong></div></div>
+                <div class="snipper-line"><div class="snippet-line-number">6</div><div class="snippet-line-content">&lt;/dl&gt;</div></div>
+              </div>
+            </section>
+          </article>
+        </div>
+      </main>
+    </div>
 
-    <article>
-      <h2 id="ol">2. <code>&lt;ol&gt;</code></h2>
-      <section>
-        <h3>Description</h3>
-        <p>
-          L'élément HTML <code>&lt;ol&gt;</code> représente une liste ordonnée.
-          Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la forme de nombres,
-          de lettres, de chiffres romains ou de points.
-        </p>
-      </section>
-      <section>
-        <h3>Attributs</h3>
-        <p></p>
-      </section>
-      <section>
-        <h3>Exemple</h3>
-        <pre><code><strong>&lt;ol&gt;</strong>
-  &lt;li&gt;50g de sucre&lt;/li&gt;
-  &lt;li&gt;2 tablettes de chocolat&lt;/li&gt;
-  &lt;li&gt;1 andouillette de Guéméné&lt;/li&gt;
-<strong>&lt;/ol&gt;</strong></code></pre>
-      </section>
-    </article>
+    <footer>
 
-    <article>
-      <h2 id="li">3. <code>&lt;li&gt;</code></h2>
-      <section>
-        <h3>Description</h3>
-        <p>
-          L'élément HTML <code>&lt;li&gt;</code> représente un élément d'une liste. Cet élément doit être contenu dans une liste ordonnée
-          (c'est-à-dire au sein d'un élément <code>&lt;ol&gt;</code>), dans une liste non ordonnée (c'est-à-dire au sein d'un élément <code>&lt;ul&gt;</code>).
-          Pour les listes ordonnées, un indicateur ordinal (un nombre ou une lettre) est utilisé.
-        </p>
-      </section>
-      <section>
-        <h3>Attributs</h3>
-        <p></p>
-      </section>
-      <section>
-        <h3>Exemple</h3>
-        <pre><code>&lt;ul&gt;
-  <strong>&lt;li&gt;</strong>50g de sucre<strong>&lt;/li&gt;</strong>
-  <strong>&lt;li&gt;</strong>2 tablettes de chocolat<strong>&lt;/li&gt;</strong>
-  <strong>&lt;li&gt;</strong>1 andouillette de Guéméné<strong>&lt;/li&gt;</strong>
-&lt;/ul&gt;</code></pre>
-      </section>
-    </article>
-
-    <article>
-      <h2 id="dl">4. <code>&lt;dl&gt;</code></h2>
-      <section>
-        <h3>Description</h3>
-        <p>
-          L'élément HTML <code>&lt;dl&gt;</code> forme une liste de paires associant des termes et leurs descriptions ou définitions.
-          On utilisera par exemple cet élément pour implémenter un glossaire.
-        </p>
-      </section>
-      <section>
-        <h3>Attributs</h3>
-        <p></p>
-      </section>
-      <section>
-        <h3>Exemple</h3>
-        <pre><code><strong>&lt;dl&gt;</strong>
-  &lt;dt&gt;Firefox&lt;/dt&gt;
-  &lt;dd&gt;Un navigateur Web libre, open-source, multi-plateforme
-  dévelopé par la Mozilla Corporation et des centaines de
-  volontaires.&lt;/dd&gt;
-<strong>&lt;/dl&gt;</strong></code></pre>
-      </section>
-    </article>
-
-    <article>
-      <h2 id="dt">5. <code>&lt;dt&gt;</code></h2>
-      <section>
-        <h3>Description</h3>
-        <p>
-          L'élément HTML <code>&lt;dt&gt;</code> identifie un terme dans une liste de définitions ou de descriptions.
-          Cet élément n'apparaît qu'en tant qu'élément enfant d'un élément <code>&lt;dl&gt;</code> et est généralement suivi d'un élément <code>&lt;dd&gt;</code>.
-          Cependant, on peut avoir plusieurs éléments <code>&lt;dt&gt;</code> à la suite qui
-          indiquent que plusieurs termes seront définis par le même élément <code>&lt;dd&gt;</code>
-          qui suivra.
-        </p>
-      </section>
-      <section>
-        <h3>Attributs</h3>
-        <p></p>
-      </section>
-      <section>
-        <h3>Exemple</h3>
-        <pre><code>&lt;dl&gt;
-  <strong>&lt;dt&gt;</strong>Firefox<strong>&lt;/dt&gt;</strong>
-  &lt;dd&gt;Un navigateur Web libre, open-source, multi-plateforme
-  dévelopé par la Mozilla Corporation et des centaines de
-  volontaires.&lt;/dd&gt;
-&lt;/dl&gt;</code></pre>
-      </section>
-    </article>
-
-    <article>
-      <h2 id="dd">6. <code>&lt;dd&gt;</code></h2>
-      <section>
-        <h3>Description</h3>
-        <p>
-          L'élément HTML <code>&lt;dd&gt;</code> (pour definition description) indique la définition d'un terme au sein d'une liste de définitions (élément (<code>&lt;dl&gt;</code>).
-          Cet élément ne peut apparaître qu'en tant qu'élément appartenant à une liste de définitions et doit être précédé d'un élément <code>&lt;dt&gt;</code>.
-        </p>
-      </section>
-      <section>
-        <h3>Attributs</h3>
-        <p></p>
-      </section>
-      <section>
-        <h3>Exemple</h3>
-        <pre><code>&lt;dl&gt;
-  &lt;dt&gt;Firefox&lt;/dt&gt;
-  <strong>&lt;dd&gt;
-  </strong>Un navigateur Web libre, open-source, multi-plateforme
-  dévelopé par la Mozilla Corporation et des centaines de
-  volontaires.
-  <strong>&lt;/dd&gt;</strong>
-&lt;/dl&gt;</code></pre>
-      </section>
-    </article>
-  </main>
-
-  <footer>
-
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
