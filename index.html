@@ -12,8 +12,12 @@
   <div class="center">
     <h2>Est ce qu'il est l'heure de la pause ?</h2>
     <h3 id="responsePause"></h3>
+  </div>
+  
+  <div class="center">
     <h2>Est ce que c'est le week-end ?</h2>
     <h3 id="responseWE"></h3>
+	<img id="licorne">
   </div>
 
   <script>
@@ -53,8 +57,10 @@
     }
     if (isWE()){
       document.getElementById('responseWE').innerHTML = "Oui. Vas t'éclater.";
+	  document.getElementById('licorne').src = "resources/happy.png";
     }else{
       document.getElementById('responseWE').innerHTML = "Non. Pas encore. #Déso";
+	  document.getElementById('licorne').src = "resources/triste.png";
     }
   </script>
 </body>
