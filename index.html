@@ -22,32 +22,13 @@
 
   <script>
     function isPause(){
-      var now = new Date();
-      if (now.getHours() < 11 && now.getHours() > 9){
-        if (now.getMinutes() < 59 && now.getMinutes() > 29){
-          return true;
-        }
-      }
-
-      if (now.getHours() < 16 && now.getHours() > 14){
-        if (now.getMinutes() < 59 && now.getMinutes() > 29){
-          return true;
-        }
-      }
-
-      return false;
+		var now = new Date();
+		return ((now.getMinutes() < 59 && now.getMinutes() > 29) && ((now.getHours() < 16 && now.getHours() > 14) || (now.getHours() < 11 && now.getHours() > 9)));
     }
 
     function isWE(){
-      var now = new Date();
-      console.log(now.getDay());
-      if (now.getDay() > 4){
-        if (now.getHours() > 16){
-          return true;
-        }
-      }
-
-      return false;
+		var now = new Date();
+		return ((now.getDay() > 5) || ((now.getDay() == 5)&& (now.getHours() > 16)));
     }
 
     if (isPause()){
